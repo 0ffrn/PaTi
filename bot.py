@@ -3,7 +3,7 @@ from time import sleep
 import request
 
 print("edita el script y pon el path de firefox donde pone executable_path porfa")
-os.system('anonsurf start, cuando tengas todo listo lo ejecutas')
+print('anonsurf start, cuando tengas todo listo lo ejecutas')
 
 made_by_elmo = 1
 
