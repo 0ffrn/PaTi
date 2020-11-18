@@ -12,7 +12,7 @@ while made_by_elmo == 1:
    r = requests.head("https://www.redbull.com/es-es/mejor-segundo-2020")
    r.status_code
    if r.status_code == 200:
-      driver = webdriver.Firefox(executable_path="\ProgramData\Microsoft\Windows\Start Menu\Programs\Firefox.lnk")
+      driver = webdriver.Firefox(executable_path="usr/share/applications/firefox.desktop")
       driver.get("https://www.redbull.com/es-es/mejor-segundo-2020")
       driver.find_element_by_xpath('//button[text()="Blon"]')\
          .click()
